@@ -1,0 +1,27 @@
+#######################################
+# Syntax Coloring Map RGB
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Servo	KEYWORD1	RGB
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+begin	KEYWORD2
+BLACK	KEYWORD2
+WHITE	KEYWORD2
+YELLOW	KEYWORD2
+CYAN	KEYWORD2
+MEGENTA	KEYWORD2
+RED	KEYWORD2
+GREEN	KEYWORD2
+BLUE	KEYWORD2
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
