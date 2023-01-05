@@ -1,8 +1,3 @@
-/*
-  rgbLED.cpp - Library for RGB LED control code.
-  Created by Fahim Reza, September 12, 2020.
-  Released into the public domain.
-*/
 
 #include "rgbLED.h" 
 
@@ -15,9 +10,9 @@ rgbLED::~rgbLED(void)
 {
 	if(ioState)
 	{
-		digitalWrite(_redLED, LEDOff);
-		digitalWrite(_greenLED, LEDOff);
-		digitalWrite(_blueLED, LEDOff);
+		digitalWrite(_redLED, LOW);
+		digitalWrite(_greenLED, LOW);
+		digitalWrite(_blueLED, LOW);
 	}
 }
 
